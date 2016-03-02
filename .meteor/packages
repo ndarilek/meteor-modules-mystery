@@ -14,8 +14,6 @@ check
 es5-shim
 ecmascript
 static-html
-jagi:astronomy
-jagi:astronomy-validators
 coffeescript
 jagi:astronomy-timestamp-behavior
 deanius:promise
@@ -23,11 +21,7 @@ ddp-rate-limiter
 konecty:user-presence
 konecty:multiple-instances-status
 fortawesome:fontawesome
-jagi:astronomy-softremove-behavior
-vsivsi:job-collection
-peerlibrary:reactive-publish
 kadira:flow-router
-meteorhacks:subs-manager
 modules
 standard-minifier-css
 standard-minifier-js
