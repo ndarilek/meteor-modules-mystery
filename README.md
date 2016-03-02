@@ -1,17 +1,28 @@
-Why does commenting out:
+1. Clone this repository.
+2. Execute the following:
 
 ```
-import {Landing} from "/client/modules/landing"
+npm install
+meteor
 ```
 
-in client/modules/core/components/home.jsx make this app work?
+3. In Firefox, visit http://localhost:3000. Notice the minimal page.
+4. Edit client/modules/core/components/home.jsx, uncommenting:
 
-If I'm incorrectly exporting `Landing` and it is undefined, why does it matter since it is never used? Shouldn't it fail at point of use and, as such, not fail?
+```
+//import {Landing} from "/client/modules/landing"
+```
 
-If there is an error in `Landing` itself, then why not explicitly report that error?
+5. The app now crashes with:
 
-Further, why does the presence or absence of the above import prevent home.jsx from loading? Shouldn't it *always* load and throw an error, instead of silently failing to load if this import is present?
+```
+Error: Curry function of composeAll needs an input.
+```
 
-This is under Firefox 44. Perhaps other browsers behave differently, but Firefox is the only browser available to me.
+Also, there is a `console.log` call atop home.jsx that is never executed.
 
-Thanks.
+## Questions
+
+1. The `Landing` module is never used. Why does uncommenting its import cause the app to crash?
+2. If there is an error in the Landing module itself, why is that error never reported?
+3. Why does uncommenting the import cause home.jsx to not load at all? (Or, at least, why does it cause the `console.log` call to not trigger?) If I have an error in a submodule or a use of same, I would expect a stacktrace of that error to originate from the callsite in home.jsx, and would definitely expect home.jsx to load.
