@@ -4,19 +4,10 @@
   "private": true,
   "dependencies": {
     "jquery": "^2.2.0",
-    "mailchimp-api": "^2.0.7",
     "mantra-core": "^1.2.0",
-    "moment": "^2.11.1",
-    "newforms": "^0.13.2",
-    "newforms-bootstrap": "^2.0.0",
-    "node-fetch": "^1.3.3",
     "react": "^0.14.6",
     "react-bootstrap": "^0.28.2",
     "react-dom": "^0.14.6",
-    "react-google-maps": "^4.7.2",
-    "react-mounter": "^1.0.0",
-    "stripe": "^4.1.0",
-    "toastr": "^2.1.2",
-    "uuid": "^2.0.1"
+    "react-mounter": "^1.0.0"
   }
 }
