@@ -35,8 +35,6 @@ meteor@1.1.11-beta.12
 meteor-base@1.0.1
 meteor-env-dev@0.0.2-beta.12
 meteor-env-prod@0.0.2-beta.12
-minifier-css@1.1.8-beta.12
-minifier-js@1.1.8-beta.12
 minimongo@1.0.11-beta.12
 modules@0.5.0-beta.12
 modules-runtime@0.5.0-beta.12
@@ -54,8 +52,6 @@ retry@1.0.4
 routepolicy@1.0.7-beta.12
 spacebars@1.0.8-beta.12
 spacebars-compiler@1.0.8-beta.12
-standard-minifier-css@1.0.3-beta.12
-standard-minifier-js@1.0.3-beta.12
 tracker@1.0.10-beta.12
 ui@1.0.8
 underscore@1.0.5-beta.12

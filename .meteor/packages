@@ -8,7 +8,4 @@ tracker
 ecmascript
 kadira:flow-router
 modules
-standard-minifier-css
-standard-minifier-js
-jquery
 random
