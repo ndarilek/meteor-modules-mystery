@@ -20,7 +20,6 @@ ddp-client@1.2.2-beta.12
 ddp-common@1.2.2
 ddp-rate-limiter@1.0.1-beta.12
 ddp-server@1.2.3-beta.12
-deanius:promise@3.1.3
 deps@1.0.9
 diff-sequence@1.0.2-beta.12
 ecmascript@0.4.0-beta.12
@@ -29,7 +28,6 @@ ejson@1.0.8-beta.12
 email@1.0.9-beta.12
 es5-shim@4.3.2-beta.12
 fastclick@1.0.8-beta.12
-fortawesome:fontawesome@4.5.0
 geojson-utils@1.0.5-beta.12
 hot-code-push@1.0.1-beta.12
 html-tools@1.0.6-beta.12
@@ -40,8 +38,6 @@ jagi:astronomy@1.2.10
 jagi:astronomy-timestamp-behavior@1.1.0
 jquery@1.11.5-beta.12
 kadira:flow-router@2.10.1
-konecty:multiple-instances-status@1.0.6
-konecty:user-presence@1.2.6
 launch-screen@1.0.6-beta.12
 livedata@1.0.15
 localstorage@1.0.6-beta.12
@@ -60,7 +56,6 @@ modules@0.5.0-beta.12
 modules-runtime@0.5.0-beta.12
 mongo@1.1.4-beta.12
 mongo-id@1.0.1
-nooitaf:colors@0.0.2
 npm-bcrypt@0.7.8_2
 npm-mongo@1.4.40-beta.12
 observe-sequence@1.0.8-beta.12

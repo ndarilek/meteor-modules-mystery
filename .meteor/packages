@@ -16,11 +16,6 @@ ecmascript
 static-html
 coffeescript
 jagi:astronomy-timestamp-behavior
-deanius:promise
-ddp-rate-limiter
-konecty:user-presence
-konecty:multiple-instances-status
-fortawesome:fontawesome
 kadira:flow-router
 modules
 standard-minifier-css
