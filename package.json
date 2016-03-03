@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "mantra-core": "^1.2.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-komposer": "^1.3.2",
     "react-mounter": "^1.0.0"
   }
 }
